@@ -17,9 +17,11 @@ request.setCharacterEncoding("UTF-8");
 <link rel="stylesheet" href="resources/fontawesome/css/all.css">
 <link rel="stylesheet" href="resources/css/reset.css">
 <link rel="stylesheet" href="resources/css/style.css">
+
+<%@ include file="/WEB-INF/views/common/header.jsp" %>
+
 <title>아이디 찾기 결과</title>
-<style>
-</style>
+
 </head>
 <body>
 	<section>
@@ -44,5 +46,6 @@ request.setCharacterEncoding("UTF-8");
 		</div>
 	</section>
 
+<%@ include file="/WEB-INF/views/common/footer.jsp" %>
 </body>
 </html>
