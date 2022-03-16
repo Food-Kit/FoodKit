@@ -1,0 +1,66 @@
+@charset "UTF-8";
+section{
+   padding: 0 13%;
+   padding-bottom: 60px;
+}
+.container{
+	width: 350px;
+    margin: 0% auto;
+    padding-top: 1%;
+}
+.title{
+	padding-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+}
+.tt{
+	display: block;
+    padding-top: 4px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999;
+    line-height: 18px;
+}
+
+.info-id {
+	padding: 20px 0;
+}
+.info-id i{
+	font-size: 42px;
+    padding-right: 8px;
+}
+.info-id .info-id2{
+	display: flex;
+    justify-content: flex-start;
+}
+
+.info-id .idid{
+	padding-top: 17px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.info-id .join-date{
+	display: block;
+    padding-top: 4px;
+    font-size: 12px;
+    color: #00b081;
+}
+
+.btn{
+	margin-top: 40px;
+}
+.btn .login-btn{
+	display: block;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #00b081;
+    border: 0 none;
+}
