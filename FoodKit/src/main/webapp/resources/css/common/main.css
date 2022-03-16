@@ -107,7 +107,7 @@ h1 {
     color: #333;
 }
 
-i{
+.xi-long-arrow-up{
 	position: fixed; /* 포지션 고정 */ 
 	right: 2%; /* 오른쪽에서 2% - %도 할수 있음*/ 
 	bottom: 30px; /* 밑에서 5px */ 

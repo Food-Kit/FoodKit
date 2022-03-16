@@ -25,6 +25,8 @@ request.setCharacterEncoding("UTF-8");
 <!-- iamport.payment.js -->
 <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
 
+<%@ include file="/WEB-INF/views/common/header.jsp" %>
+
 <title>회원가입</title>
 </head>
 <body>
@@ -382,5 +384,7 @@ request.setCharacterEncoding("UTF-8");
 		form.submit();
 	}
 </script>
+
+<%@ include file="/WEB-INF/views/common/footer.jsp" %>
 </body>
 </html>
