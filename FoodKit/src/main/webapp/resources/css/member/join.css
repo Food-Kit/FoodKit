@@ -1,0 +1,202 @@
+.title-div {
+	width: 665px;
+	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+    color: #000000;
+}
+
+.necessary-div {
+	width: 665px;
+	margin: 0 20%;
+	margin-bottom: 10px;
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+}
+
+.join-div {
+	width: 622px;
+	margin: 0 20%;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	padding: 20px 2%;
+	overflow-x: auto; 
+	white-space: nowrap;
+}
+
+section label {
+	font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: 125px;
+}
+
+.join-div input::placeholder {
+	color: #ccc;
+}
+
+.join-id-div, .join-pw-div, .join-pwck-div, .join-name-div,
+.join-email-div, .join-phone-div, .join-address-div, .join-gender-div {
+	display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.join-birth-div {
+	display: flex;
+	align-items: center;
+}
+
+#id-hide-div p, #pw-hide-div p {
+	margin: 5px 127px;
+	color: #666;
+	font-size: 12px;
+}
+
+#id-input, #pw-input, #pwck-input,
+#name-input, #email-input, #phone-input,
+#addr1-input, #addr2-input {
+	width: 335px;
+	height: 41px;
+	padding: 0 15px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+    font-size: 14px;
+    color: #000000;
+}
+
+#addr2-input {
+	margin-left: 125px;
+    margin-top: 10px;
+}
+
+#idck-btn, #emailck-btn, 
+#phoneck-btn, #address-btn {
+	width: 120px;
+	height: 45px;
+	background: #FFFFFF;
+	color: #00b081;
+	border: 1px solid #00b081;
+	font-size: 14px;
+}
+
+#address-btn {
+	margin-left: -6px;
+}
+
+#phoneck-btn:disabled {
+	width: 120px;
+	height: 45px;
+	background: #FFFFFF;
+	color: #DDDDDD;
+	border: 1px solid #DDDDDD;
+	font-size: 14px;
+}
+
+#idck-btn:hover, #emailck-btn:hover, 
+#phoneck-btn:hover, #address-btn:hover {
+	cursor: pointer;
+}
+
+.gender-radio {
+	width: 365px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.join-birth-div div {
+	border: 1px solid #ccc;
+	width: 365px;
+}
+
+.join-birth-div div:focus-within {
+	border: 2px solid #000000;
+	border-radius: 3px;
+}
+
+.join-birth-div input {
+	width: 102px;
+	height: 40px;
+	text-align: center;
+    border: none;
+}
+
+.join-birth-div input:focus {
+	outline: none;
+}
+
+.agree-div {
+	width: 668px;
+	margin: 0 20%;
+	padding: 20px 2%;
+	display: flex;
+}
+
+.ck-div1 {
+	font-size: 18px;
+	margin-bottom: 17px;
+}
+
+.ck-div1 p {
+	font-size: 12px;
+    margin-left: 25px;
+    margin-top: 3px;
+}
+
+.ck-div2, .ck-div3, .ck-div4,
+.ck-div5, .ck-div6 {
+	display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+.ck-div2 div, .ck-div3 div, .ck-div4 div,
+.ck-div5 div, .ck-div6 div {
+	color: #999999;
+} 
+
+.ck-div2 button {
+	margin-left: 270px;
+    background: #FFFFFF;
+    border: none;
+    color: #00b081;
+}
+
+.ck-div3 button, .ck-div4 button {
+	margin-left: 201px;
+	background: #FFFFFF;
+    border: none;
+    color: #00b081;
+}
+
+.ck-div2 button:hover, .ck-div3 button:hover,
+.ck-div4 button:hover {
+	cursor: pointer;
+}
+
+.button-biv {
+	width: 668px;
+	margin: 0 20%;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#join-btn{
+	width: 240px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #00b081;
+    border: none;
+}
+
+#join-btn:hover {
+	cursor: pointer;
+}
