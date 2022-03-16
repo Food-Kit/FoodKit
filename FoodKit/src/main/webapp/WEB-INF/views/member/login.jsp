@@ -12,73 +12,15 @@ request.setCharacterEncoding("UTF-8");
 <meta charset="UTF-8">
 <title>FoodKit</title>
 <link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="resources/css/member/login.css">
 <link rel="stylesheet" href="resources/fontawesome/css/all.css">
 <script src="resources/js/jquery-3.6.0.min.js"></script>
 <style>
-.title {
-    text-align: center;
-    font-size: 1rem;
-}
-.login-box{
-	width: 16%;
-    margin: 0% auto;
-    padding-top: 1%;
-    letter-spacing: -1.6px;
-}
-.login-text-box{
-	width: 87%;
-    height: 54px;
-    padding: 0px 19px;
-    border: 1px solid #00B081;
-    border-radius: 3px;
-    background-color: #fff;
-    font-size: 14px;
-    line-height: 20px;
-    outline: none;
-}
-.find{
-	text-align: end;
-	padding-top: 6px;
-}
-.find a{
-	 text-decoration: none;
-    color: #000;
-    font-size: 13px;
-}
-.btn{
-	padding: 4% 0;
-	padding-top: 28px;
-}
-.btn .login-btn{
-	background-color: #00B081;
-    color: #fff;
-    border-color: #00B081;
-    border-style: none;
-    width: 100%;
-    height: 49px;
-    border-radius: 3px;
-    font-size: 16px;
-    font-weight: 500;
-}
-.btn .Join-btn{
-	background-color: #fff;
-    color: #00B081;
-    border: 1px solid #00B081;
-    width: 100%;
-    height: 49px;
-    border-radius: 3px;
-    font-size: 16px;
-    font-weight: 500;
-}
-.sns{
-	display: flex;
-    justify-content: space-around;
-}
 </style>
 </head>
 <body>
 	
-	<section class="login">
+	<section>
 		<div class="title">
 			<h1>
 				<b>로그인</b>
@@ -105,16 +47,16 @@ request.setCharacterEncoding("UTF-8");
 			
 			<div class="sns">
 				<div class="kakao">
-					<img src="resources/image/login_kakao_icon.png" style="width: 70px;height: 70px">
+					<img src="resources/image/member/login_kakao_icon.png" style="width: 70px;height: 70px">
 				</div>
 				<div class="naver">
 					<a href="${naver_url}">
-					<img src="resources/image/login_naver_icon.png" style="width: 70px;height: 70px">
+					<img src="resources/image/member/login_naver_icon.png" style="width: 70px;height: 70px">
 					</a>						
 				</div>
 				<div class="google">
 					<a href="${google_url}">
-					<img src="resources/image/IOS_Google_icon.png" style="width: 70px;height: 70px">
+					<img src="resources/image/member/IOS_Google_icon.png" style="width: 70px;height: 70px">
 					</a>
 				</div>
 			</div>
