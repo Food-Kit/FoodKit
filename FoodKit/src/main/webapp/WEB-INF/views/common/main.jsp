@@ -18,9 +18,7 @@ request.setCharacterEncoding("UTF-8");
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="resources/slick/slick.min.js"></script>
 
-<style>
-
-</style>
+<%@ include file="/WEB-INF/views/common/header.jsp" %>
 </head>
 <body>
 	<div class="top">
@@ -190,6 +188,7 @@ request.setCharacterEncoding("UTF-8");
     	  });
     	});
 	</script>
+<%@ include file="/WEB-INF/views/common/footer.jsp" %>
 </body>
 
 </html>

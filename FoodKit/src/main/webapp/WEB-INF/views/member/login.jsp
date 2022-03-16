@@ -15,8 +15,7 @@ request.setCharacterEncoding("UTF-8");
 <link rel="stylesheet" href="resources/css/member/login.css">
 <link rel="stylesheet" href="resources/fontawesome/css/all.css">
 <script src="resources/js/jquery-3.6.0.min.js"></script>
-<style>
-</style>
+<%@ include file="/WEB-INF/views/common/header.jsp" %>
 </head>
 <body>
 	
@@ -63,6 +62,6 @@ request.setCharacterEncoding("UTF-8");
 			
 		</div>
 	</section>
-
+<%@ include file="/WEB-INF/views/common/footer.jsp" %>
 </body>
 </html>

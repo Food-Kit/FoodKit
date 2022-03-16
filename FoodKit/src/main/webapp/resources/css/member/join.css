@@ -9,7 +9,7 @@
 
 .necessary-div {
 	width: 665px;
-	margin: 0 20%;
+	margin: 0 auto;
 	margin-bottom: 10px;
     font-size: 12px;
     color: #666;
@@ -18,7 +18,7 @@
 
 .join-div {
 	width: 622px;
-	margin: 0 20%;
+	margin: 0 auto;
 	border-top: 2px solid #000000;
 	border-bottom: 2px solid #000000;
 	padding: 20px 2%;
@@ -182,7 +182,7 @@ section label {
 
 .button-biv {
 	width: 668px;
-	margin: 0 20%;
+	margin: 0 auto;
 	padding-top: 40px;
 	text-align: center;
 }
