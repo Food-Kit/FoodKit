@@ -18,7 +18,6 @@ request.setCharacterEncoding("UTF-8");
 <link rel="stylesheet" href="resources/css/reset.css">
 <link rel="stylesheet" href="resources/css/style.css">
 <title>아이디 찾기 결과</title>
-<%@ include file="/WEB-INF/views/common/header.jsp" %>
 </head>
 <body>
 	<section>
@@ -42,6 +41,5 @@ request.setCharacterEncoding("UTF-8");
 		<button class="login-btn" type="submit">로그인</button>
 		</div>
 	</section>
-<%@ include file="/WEB-INF/views/common/footer.jsp" %>
 </body>
 </html>
